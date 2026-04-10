@@ -28,3 +28,6 @@ class Punto:
         factor = -1
         return Punto(self.x*factor, self.y*factor)
     
+    def __str__(self):
+        return self.impresion()
+    
